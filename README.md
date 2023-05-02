@@ -1,2 +1,2 @@
-# news api over email
-## This app accesses news about a particular topic and sends them by email
+# news over email with api
+## This app accesses news about a particular topic and sends them by email using news-api
