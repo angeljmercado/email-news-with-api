@@ -18,6 +18,6 @@ for article in content["articles"][:10]:
     if article["title"] is not None:
         body = "Subject: Today's News" + "\n" + body + article["title"] + "\n" + str(article["description"]) + "\n" + str(article["url"]) + 2*"\n"
 
-# Send the news tiles and description to the email 
+# Send the news titles and description to the email 
 body = body.encode("utf-8")
 send_email(body)
